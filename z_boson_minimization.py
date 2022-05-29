@@ -21,7 +21,7 @@ If an error is found in the data input/validation stages, the programme comes
 to a hault and a statement is printed to the console.
 
 Last Updated: 20/12/2021
-Author: Elise Mel Acher 
+Author: Elise Acher 
 
 """
 
