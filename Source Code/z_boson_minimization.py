@@ -52,7 +52,7 @@ def open_dataset1():
     """
     try:
         read_dataset1 = np.genfromtxt(
-            'z_boson_data_1.csv', delimiter=',', comments='%', autostrip=True)
+            'Data Files/z_boson_data_1 .csv', delimiter=',', comments='%', autostrip=True)
         validate_dataset1 = read_dataset1[~np.isnan(read_dataset1).any(axis=1)]
         remove_negative = validate_dataset1[validate_dataset1[:, 1]> 0]
 
@@ -83,7 +83,7 @@ def open_dataset2():
     """
     try:
         read_dataset2 = np.genfromtxt(
-            'z_boson_data_2.csv', delimiter=',', comments='%', autostrip=True)
+            'Data Files/z_boson_data_2.csv', delimiter=',', comments='%', autostrip=True)
         validate_dataset2 = read_dataset2[~np.isnan(read_dataset2).any(axis=1)]
         remove_negative = validate_dataset2[validate_dataset2[:, 1]> 0]
 
